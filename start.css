@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    position: absolute;
+
+    background-image: url("images/desktop.png");
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*height: 100%; 
+  
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+
+.window{
+    background-image: url("images/window.png");
+    position: relative;
+    margin: auto;
+
+    top:4%;
+    width: 75vw;
+    height:56.25vw;
+    max-height: 600px;
+    max-width: 800px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.webpage{
+    position: relative;
+    top: 19.7%;
+    width: 96%;
+    height: 75.5%;
+    margin-left: 0.76%;
+    
+    background-color: skyblue;
+    overflow: scroll;
+}
+
+.webpage p{
+    margin-top: 0;
+    font-size: calc(6px + 2vw);
+}
+
+#taskbar{
+    position: relative;
+    top:100%;
+    background-image: url("images/test.png");
+    background-size: cover;
+
+    height:3%;
+}
+
+#window{
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:3%;
+}
