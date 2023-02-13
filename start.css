@@ -8,7 +8,7 @@ body{
 
     background-image: url("images/desktop.png");
     background-color: grey;
-    height: 100vh;
+    height: 97.07vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
     position: relative;
     margin: auto;
 
-    top:12%;
+    top:10%;
     width: 75vw;
     height:56.25vw;
     max-height: 600px;
@@ -44,15 +44,27 @@ body{
     margin-left: 0.76%;
     
     background-color: skyblue;
-    background-image: url("images/inikabackground.jpg");
+    background-image: url('images/inikabackground.jpg');
     background-size: cover;
     overflow: scroll;
 }
 
 .webpage p{
     margin: 0;
-    font-size: calc(6px + 2vw);
-    color: greenyellow;
+    font-size: calc(6px + 1vw);
+    color: white;
+}
+#txt{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+.hov{
+    color: white;
+}
+
+.hov:hover:after{
+    content: "string the first letters, lowercase";
+    color: yellow;
 }
 
 #taskbar{
@@ -70,4 +82,84 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     padding:3%;
+}
+
+.floatwrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80vw;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box{  
+    display: flex;
+    border: 4px solid #000000;
+    width: 30%;
+    max-height:210px;
+    margin: 1%;
+    float: left;
+}
+
+#tahu {
+    background-image: url('images/tahu.jpg');
+    background-size: cover;
+    background-position: 20%;
+}
+#tahu:hover{
+    background-image: url('images/tah2.png');
+    background-position: right;
+}
+#takua{
+    background-image: url('images/pewku.png');
+    background-size: cover;
+    background-position: center;
+}
+#takua:hover{
+    background-image: url('images/tak2.png')
+}
+#maxilos{
+    background-image: url('images/maxilos.jpg');
+    background-size: cover;
+    background-position: left;
+}
+#maxilos:hover{
+    background-image: url('images/max2.png')
+}
+#vakama{
+    background-image: url('images/vakama.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#vakama:hover{
+    background-image: url('images/vak2.png');
+    background-position: 30%;
+}
+#matoro{
+    background-image: url('images/matoro.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#matoro:hover{
+    background-image: url('images/mat2.png');
+    background-size: contain;
+}
+#lewa{
+    background-image: url('images/lewa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#lewa:hover{
+    background-image: url('images/lew2.png');
+    background-position: left;
+}
+
+
+:invalid + [for="txtName"]{
+    display: none;
+}
+:valid + [for="txtName"]{
+    opacity: 1;
 }
