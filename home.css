@@ -36,6 +36,61 @@ body{
     background-position: center; */
 }
 
+#txt{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.box1{
+    padding: auto;
+    background-image: url('images2/morning.jpg');
+    background-size: cover;
+    background-position-y: 73%;
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#QA{
+    border: 4px solid #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#q{
+    font-size: 160%;
+}
+#a{
+    text-align: right;
+    font-size: 140%;
+}
+#link{
+    padding-left: 74%;
+    font-size: 140%;
+}
+
+
+.fun{
+    font-family: Comic Sans MS;
+    animation: anim 10s infinite;
+}
+
+@keyframes anim {
+    0% {
+        color: #ff0000;
+    }
+    25% {
+        color: #fbff00;
+    }
+    50% {
+        color: #00ff04;
+    }
+    75% {
+        color: #3700ff;
+    }
+    100% {
+        color: #ff0000;
+    }
+  }
+
 .webpage{
     position: relative;
     top: 19.7%;
@@ -43,23 +98,10 @@ body{
     height: 75.5%;
     margin-left: 0.76%;
     
-    background-color: skyblue;
+    background-color: black;
     background-size: cover;
     overflow: scroll;
-    animation: anim 40s infinite;
 }
-
-@keyframes anim {
-    0% {
-        background-color: #0080ff;
-    }
-    50% {
-        background-color: #FF4136;
-    }
-    100% {
-        background-color: #0080ff;
-    }
-  }
 
 .webpage p{
     margin: 0;
@@ -72,7 +114,7 @@ body{
 }
 
 .hov:hover:after{
-    content: "idk i forgot";
+    content: "the password is 'password'";
     color: yellow;
 }
 
