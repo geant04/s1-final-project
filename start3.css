@@ -1,0 +1,226 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    position: absolute;
+
+    background-image: url("images/desktop.png");
+    background-color: grey;
+    height: 97.07vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*height: 100%; 
+  
+    background-repeat: no-repeat;
+    background-size: contain;*/
+}
+.window{
+    z-index: 0;
+    background-image: url("images/window.png");
+    position: relative;
+    margin: auto;
+
+
+    top: 47%;
+    transform: translateY(-50%);
+    
+    width: 75vw;
+    height:56.25vw;
+    max-height: 750px;
+    max-width: 1000px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+}
+.webpage2{
+    position: relative;
+    top: 19.7%;
+    width: 96%;
+    height: 75.5%;
+    margin-left: 0.76%;
+    
+    background-color: white;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.swindow{
+    z-index: 3;
+    background-image: url("images3/rofl.jpg");
+    position: absolute;
+    margin: auto;
+    
+    width: 16vw;
+    height: 12.50vw;
+
+    max-height:300px;
+    max-width: 400px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    animation: move 5s infinite;
+}
+.swindow2{
+    z-index: 2;
+    background-image: url("images3/rofl.jpg");
+    position: absolute;
+    margin: auto;
+    
+    top: -18.5%;
+    width: 16vw;
+    height: 12.50vw;
+
+    max-height:300px;
+    max-width: 400px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    animation: move2 5s infinite;
+}
+.swindow3{
+    z-index: 2;
+    background-image: url("images3/rofl.jpg");
+    position: absolute;
+    margin: auto;
+    
+    top: -18.5%;
+    width: 16vw;
+    height: 12.50vw;
+
+    max-height:300px;
+    max-width: 400px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    animation: move3 5s infinite;
+}
+.swindow4{
+    z-index: 2;
+    background-image: url("images3/rofl.jpg");
+    position: absolute;
+    margin: auto;
+    
+    top: -18.5%;
+    width: 16vw;
+    height: 12.50vw;
+
+    max-height:300px;
+    max-width: 400px;
+
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    animation: move4 5s infinite;
+}
+
+@keyframes move{
+    0%{left: 30%; bottom: 10%}
+    25%{left: 60%; bottom: 10%}
+    50%{left: 30%; bottom: 40%}
+    75%{left: 60%; bottom: 70%}
+    100%{left: 30%; bottom: 10%}
+}
+@keyframes move2{
+    0%{left: 60%; bottom: 0%}
+    25%{left: 30%; bottom: 10%}
+    50%{left: 20%; bottom: -70%}
+    75%{left: 40%; bottom: -90%}
+    100%{left: 60%; bottom: 0%}
+}
+@keyframes move3{
+    0%{left: 5%; bottom: 50%}
+    25%{left: 80%; bottom: 50%}
+    50%{left: 80%; bottom: -90%}
+    75%{left: 5%; bottom: -90%}
+    100%{left: 5%; bottom: 50%}
+}
+@keyframes move4{
+    0%{left: 80%; bottom: -10%}
+    25%{left: 3%; bottom: 50%}
+    50%{left: 60%; bottom: 20%}
+    75%{left: 40%; bottom: -40%}
+    100%{left: 80%; bottom: -10%}
+}
+
+
+.webpage{
+    position: relative;
+    top: 15.4%;
+    width: 97%;
+    height: 82.5%;
+    margin-left: 1.7%;
+    
+    background-color: black;
+    background-size: cover;
+    overflow: scroll;
+    animation: anim 5s infinite;
+}
+
+#msg{
+    animation: color-change 5s infinite;
+    font-size: 220%;
+}
+
+@keyframes color-change {
+    0% { color: black; }
+    49% { color: black; }
+    50% { color: white; }
+  }
+
+@keyframes anim {
+	0% {background-color: white}
+	49%{background-color: white}
+	50% {background-color: black}
+  }
+
+.webpage p{
+    margin: 0;
+    font-size: calc(6px + 1vw);
+    color: white;
+}
+
+.hov{
+    color: white;
+}
+
+.hov:hover:after{
+    content: "idk i forgot";
+    color: yellow;
+}
+
+#taskbar{
+    position: relative;
+    top:100%;
+    background-image: url("images/test.png");
+    background-size: cover;
+
+    height:3%;
+}
+
+#window{
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:3%;
+}
+
+:invalid + [for="txtName"]{
+    display: none;
+}
+:valid + [for="txtName"]{
+    opacity: 1;
+}
+
+#s {
+    width: 40%;
+}

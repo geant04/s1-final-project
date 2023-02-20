@@ -25,11 +25,13 @@ body{
     position: relative;
     margin: auto;
 
-    top:10%;
+    top: 47%;
+    transform: translateY(-50%);
+    
     width: 75vw;
     height:56.25vw;
-    max-height: 600px;
-    max-width: 800px;
+    max-height: 750px;
+    max-width: 1000px;
 
     background-size: cover;
     /* background-repeat: no-repeat;
@@ -61,6 +63,9 @@ body{
     }
   }
 
+.papy{
+    font-family: 'Papyrus', 'monospace';
+}
 .webpage p{
     margin: 0;
     font-size: calc(6px + 1vw);
@@ -72,7 +77,7 @@ body{
 }
 
 .hov:hover:after{
-    content: "idk i forgot";
+    content: "idk i forgot the password lol";
     color: yellow;
 }
 
