@@ -147,3 +147,36 @@ body{
 #s {
     width: 40%;
 }
+
+
+#left{
+    position: absolute;
+    top: 42vh;
+    left: -1.6vw;
+
+    background-image: url('webring/pavv.png');
+    background-size: cover;
+
+    width: 15vw;
+    height:8.7vw;
+}
+
+#left:hover{
+    background-image: url('webring/pavvh.png');
+}
+
+#right{
+    position: absolute;
+    top: 42vh;
+    right: -1.6vw;
+
+    background-image: url('webring/cyntr.png');
+    background-size: cover;
+
+    width: 15vw;
+    height:8.7vw;
+}
+
+#right:hover{
+    background-image: url('webring/cynth.png');
+}
