@@ -152,13 +152,13 @@ body{
 #left{
     position: absolute;
     top: 42vh;
-    left: -1.6vw;
+    left: -0.95vw;
 
     background-image: url('webring/pavv.png');
     background-size: cover;
 
-    width: 15vw;
-    height:15vw;
+    width: 12vw;
+    height:12vw;
 }
 
 #left:hover{
@@ -167,16 +167,15 @@ body{
 
 #right{
     position: absolute;
-    top: 42vh;
-    right: -1.6vw;
+    top: 57vh;
+    right: 5vw;
 
-    background-image: url('webring/cyntr.png');
+    background-image: url('webring/candice.png');
     background-size: cover;
 
-    width: 15vw;
-    height:8.7vw;
+    width: 7vw;
+    height:10vw;
 }
-
 #right:hover{
-    background-image: url('webring/cynth.png');
+    background-image: url('webring/flowerlow.png');
 }
